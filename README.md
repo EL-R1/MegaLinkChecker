@@ -1,5 +1,5 @@
 # MegaLinkChecker.py
-Python based tool to check if mega.nz shared link is dead or not
+Python based tool to check if mega.nz shared link is dead or not\
 Big thanks to the original script [writter](https://github.com/snoofox/MegaLinkChecker.py)
 
 # Updates
