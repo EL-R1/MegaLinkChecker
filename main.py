@@ -185,6 +185,9 @@ def mega_checker(url: str) -> bool:
     if "#F!" in url:
       url = url.replace("#F!", "folder/")
       url = url.replace("!", "#")
+    elif "#!" in url:
+      url = url.replace("#!", "file/")
+      url = url.replace("!", "#")
     
     if not bool(re.search(REGEX, url)):
         return print("? - Improper link : "+url+"\n")
